@@ -28,3 +28,22 @@ This dataset has 3333 instances of 20 descriptive features and 1 target variable
 
 <u>Target variable</u>
 >churn
+
+This repo contains three folders.<br>
+data: Has the original file as 'SyriaTel_customer_data', preproccessed file, and additional features<br>
+notebooks: has two notebooks 'EDA' and 'Modeling'<br>
+graphs_and_images: all the important graphs created in the notebooks<br>
+
+## Goal
+
+The goal for this project is to determine what leads customers astray and to predict if a customer will leave.
+
+## A look inside
+In this dataset we have a churn rate close of approx 15%
+<img src="graphs_and_images/pie_chart_of_churn_rate.png">
+
+Five states with highest churn rate
+<img src="graphs_and_images/top_five_states_by_churnRate.png">
+
+Churn rate is higher for customers with a international plan. Roughly 10% of customers use this feature.
+<img src="graphs_and_images/churn_by_intl_plan.png">
