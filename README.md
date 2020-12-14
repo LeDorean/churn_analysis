@@ -58,3 +58,23 @@ It seems that customers who pay more than 80 are more liklely to leave.
 The proportion of customers who leave us is greater than those who don't for the subset of customers who call customer service more than 4 times
 <img src="graphs_and_images/pdf_customer_service_calls.png">
 
+## Modeling 
+
+Since the dataset has a significant amount of class imbalance I used SMOTE to create synthetic samples of the smaller class (customers who left)
+
+Fitted models include:
+>Logistic Regression<br>
+KNN<br>
+Decision Tree<br>
+SVC<br>
+
+with decision tree and svc coming in first
+
+I applied a gridsearch using decision tree and got a slightly better score. Ensemble method Random forest came in higher, so I did a grid search over that which improved my score.<br>
+
+
+## Summary
+
+The final model can predict 82% of all customers who leave. 
+The length of calls is the greatest influence on our predictions. This leads me wondering whether there is some level of service interruption. Moving forward we should collect data on dropped calls and overall call quality. Additionally, we need to be more careful with our customer service, it would be wise to add a feature including the reason for their call.
+
