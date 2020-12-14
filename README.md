@@ -47,3 +47,14 @@ Five states with highest churn rate
 
 Churn rate is higher for customers with a international plan. Roughly 10% of customers use this feature.
 <img src="graphs_and_images/churn_by_intl_plan.png">
+
+## Hypothesis testing
+
+The distribution of Total charges is different for the churned customers as viewed here.
+It seems that customers who pay more than 80 are more liklely to leave.
+
+<img src="graphs_and_images/pdf_total_charges.png">
+
+The proportion of customers who leave us is greater than those who don't for the subset of customers who call customer service more than 4 times
+<img src="graphs_and_images/pdf_customer_service_calls.png">
+
